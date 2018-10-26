@@ -1,0 +1,10 @@
+{
+    "DotNetFest2018.Demo4": {
+        "commandName": "Project",
+        "launchBrowser": false,
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "applicationUrl": "http://localhost:5000/"
+    }
+}
