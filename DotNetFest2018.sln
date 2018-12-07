@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetFest2018.Demo3", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetFest2018.Demo4", "src\DotNetFest2018.Demo4\DotNetFest2018.Demo4.csproj", "{5B481733-EE97-4492-BF01-E29B056DB94E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFest2018.Demo5", "src\DotNetFest2018.Demo5\DotNetFest2018.Demo5.csproj", "{8522E012-20CF-4A2E-8414-ED6BC3ADC464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetFest2018.Demo5", "src\DotNetFest2018.Demo5\DotNetFest2018.Demo5.csproj", "{8522E012-20CF-4A2E-8414-ED6BC3ADC464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFest2018.Demo0", "src\DotNetFest2018.Demo0\DotNetFest2018.Demo0.csproj", "{0704F447-60C0-4BC0-A2E6-F515D2604562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8522E012-20CF-4A2E-8414-ED6BC3ADC464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8522E012-20CF-4A2E-8414-ED6BC3ADC464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8522E012-20CF-4A2E-8414-ED6BC3ADC464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0704F447-60C0-4BC0-A2E6-F515D2604562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0704F447-60C0-4BC0-A2E6-F515D2604562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0704F447-60C0-4BC0-A2E6-F515D2604562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0704F447-60C0-4BC0-A2E6-F515D2604562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
