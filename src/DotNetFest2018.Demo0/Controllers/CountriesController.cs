@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DotNetFest2018.Demo0.Options;
+using Microsoft.Extensions.Options;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,14 +11,17 @@ namespace DotNetFest2018.Demo0.Controllers
 {
     public class CountriesController : ApiController
     {
-        public CountriesController()
+        private readonly CountryOptions _countryOptions;
+
+        public CountriesController(IOptions<CountryOptions> countryOptions)
         {
+            _countryOptions = countryOptions.Value;
         }
 
         [HttpGet]
         public object Get()
         {
-            return new object[] { (code: "UK", name: "United Kingdom"), (code: "USA", name: "United States") };
+            return _countryOptions.Countries;
         }
     }
 }
